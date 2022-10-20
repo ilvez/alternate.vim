@@ -87,3 +87,9 @@ src/**/foo.hs <-> testsuite/tests/**/Qcfoo.hs
 ```
 **/foo.go <-> **/foo_test.go
 ```
+
+#### Java
+
+```
+main/**/App.java <-> test/**/AppTest.java
+```
