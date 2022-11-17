@@ -104,8 +104,8 @@ function alternate#types#Java()
   let b:alternate_test_token          = "Test"
   let b:alternate_test_token_location = "$"
 
-  let b:alternate_source_dirs = "main,**,."
-  let b:alternate_test_dirs  = "test,**,."
+  let b:alternate_source_dirs = "src/main,**,."
+  let b:alternate_test_dirs  = "src/test,**,."
 
   let b:alternate_enabled = 1
 endfunction
@@ -114,8 +114,8 @@ function alternate#types#Kotlin()
   let b:alternate_test_token = "Test"
   let b:alternate_test_token_location = "$"
 
-  let b:alternate_source_dirs = "main,**,."
-  let b:alternate_test_dirs  = "test,**,."
+  let b:alternate_source_dirs = "src/main,**,."
+  let b:alternate_test_dirs  = "src/test,**,."
 
   let b:alternate_enabled = 1
 endfunction
