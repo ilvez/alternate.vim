@@ -93,3 +93,9 @@ src/**/foo.hs <-> testsuite/tests/**/Qcfoo.hs
 ```
 main/**/App.java <-> test/**/AppTest.java
 ```
+
+#### Kotlin
+
+```
+main/**/App.kt <-> test/**/AppTest.kt
+```
